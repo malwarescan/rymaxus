@@ -11,9 +11,6 @@ export function Footer() {
               Creating unforgettable brand experiences through innovative
               experiential marketing.
             </p>
-            <p className="text-sm text-gray-500">
-              © {new Date().getFullYear()} Rymaxus. All rights reserved.
-            </p>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
@@ -46,6 +43,23 @@ export function Footer() {
                 Send
               </button>
             </form>
+          </div>
+        </div>
+        
+        {/* Legal Links */}
+        <div className="mt-8 pt-8 border-t border-gray-700">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex space-x-6 mb-4 md:mb-0">
+              <a href="/terms-of-service" className="text-gray-400 hover:text-white transition-colors text-sm">
+                Terms of Service
+              </a>
+              <a href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
+                Privacy Policy
+              </a>
+            </div>
+            <p className="text-xs text-gray-500">
+              © {new Date().getFullYear()} Rymaxus. All rights reserved.
+            </p>
           </div>
         </div>
       </div>
