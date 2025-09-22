@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export function TermsOfService() {
   return (
@@ -7,12 +8,12 @@ export function TermsOfService() {
       <nav className="bg-gray-800 py-4">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
-            <a href="/" className="text-xl font-bold text-white">
+            <Link to="/" className="text-xl font-bold text-white">
               Rymaxus
-            </a>
-            <a href="/" className="text-gray-300 hover:text-white transition-colors">
+            </Link>
+            <Link to="/" className="text-gray-300 hover:text-white transition-colors">
               Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

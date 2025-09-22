@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 export function Footer() {
   return <footer className="py-12 border-t border-gray-800">
       <div className="container mx-auto px-4">
@@ -50,12 +51,12 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex space-x-6 mb-4 md:mb-0">
-              <a href="/terms-of-service" className="text-gray-400 hover:text-white transition-colors text-sm">
+              <Link to="/terms-of-service" className="text-gray-400 hover:text-white transition-colors text-sm">
                 Terms of Service
-              </a>
-              <a href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
+              </Link>
+              <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
                 Privacy Policy
-              </a>
+              </Link>
             </div>
             <p className="text-xs text-gray-500">
               © {new Date().getFullYear()} Rymaxus. All rights reserved.
