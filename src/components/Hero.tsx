@@ -38,7 +38,7 @@ export function Hero() {
           </span>
         </h1>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-12">
-          Creating unforgettable brand moments through innovative experiential
+          Creating unforgettable brand moments through innovative retail
           marketing.
         </p>
         <button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full text-white font-bold text-lg transition-all hover:shadow-glow hover:scale-105">

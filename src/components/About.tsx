@@ -24,7 +24,7 @@ export function About() {
         }, {
           icon: <Target className="w-10 h-10 text-blue-500" />,
           title: 'Results Driven',
-          description: 'Our experiential strategies are designed to achieve measurable outcomes and meaningful connections.'
+          description: 'Our retail strategies are designed to achieve measurable outcomes and meaningful connections.'
         }, {
           icon: <Globe className="w-10 h-10 text-purple-500" />,
           title: 'Florida Roots, Global Reach',

@@ -20,11 +20,11 @@ export function Services() {
   }, {
     icon: <Award className="w-8 h-8" />,
     title: 'Event Production',
-    description: 'End-to-end management of experiential events that exceed expectations.'
+    description: 'End-to-end management of retail events that exceed expectations.'
   }, {
     icon: <ArrowRight className="w-8 h-8" />,
     title: 'Custom Solutions',
-    description: 'Tailored experiential marketing strategies designed for your specific brand objectives.'
+    description: 'Tailored retail marketing strategies designed for your specific brand objectives.'
   }];
   return <section className="py-24 relative" id="services">
       <div className="container mx-auto px-4">
@@ -36,7 +36,7 @@ export function Services() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-300">
-            We offer a full spectrum of experiential marketing solutions to help
+            We offer a full spectrum of retail marketing solutions to help
             your brand create meaningful connections.
           </p>
         </div>

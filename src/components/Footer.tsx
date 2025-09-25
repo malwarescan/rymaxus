@@ -10,7 +10,7 @@ export function Footer() {
             </div>
             <p className="text-gray-400 mb-6">
               Creating unforgettable brand experiences through innovative
-              experiential marketing.
+              retail marketing.
             </p>
           </div>
           <div>

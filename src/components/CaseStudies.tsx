@@ -37,7 +37,7 @@ export function CaseStudies() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-300">
-            Explore our most impactful experiential marketing campaigns and
+            Explore our most impactful retail marketing campaigns and
             their results.
           </p>
         </div>

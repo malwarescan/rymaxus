@@ -50,7 +50,7 @@ export function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">3. Services</h2>
             <p className="text-gray-300 mb-4">
-              Rymaxus provides experiential marketing services including but not limited to live activations, brand storytelling, digital installations, influencer partnerships, and event production. All services are provided subject to separate service agreements.
+              Rymaxus provides retail marketing services including but not limited to live activations, brand storytelling, digital installations, influencer partnerships, and event production. All services are provided subject to separate service agreements.
             </p>
           </section>
 
