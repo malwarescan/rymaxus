@@ -73,8 +73,8 @@ export function TermsOfService() {
             </p>
             <p className="text-gray-300">
               Email: hr@rymaxus.com<br />
-              Phone: +1 (239) 233-2691<br />
-              Address: Miami Design District, FL 33137
+              Phone: 941-477-8166<br />
+              Address: Fort Myers, Florida
             </p>
           </section>
         </div>

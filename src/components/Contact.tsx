@@ -26,7 +26,7 @@ export function Contact() {
                 <div>
                   <h4 className="font-semibold text-lg">Location</h4>
                   <p className="text-gray-400">
-                    Miami Design District, FL 33137
+                    Fort Myers, Florida
                   </p>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg">Phone</h4>
-                  <p className="text-gray-400">+1 (239) 233-2691</p>
+                  <p className="text-gray-400">941-477-8166</p>
                 </div>
               </div>
               <div className="flex items-start">

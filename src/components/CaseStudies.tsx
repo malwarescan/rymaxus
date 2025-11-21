@@ -3,23 +3,20 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 export function CaseStudies() {
   const [activeIndex, setActiveIndex] = useState(0);
   const caseStudies = [{
-    title: 'Immersive Tech Conference',
-    client: 'TechGlobal',
-    description: 'Created a multi-sensory experience for 5,000+ attendees with interactive installations and virtual reality demonstrations.',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    results: ['45% increase in brand recall', '12,000+ social media impressions', 'Featured in 3 industry publications']
+    title: 'Stronger Membership. Smarter Connections.',
+    client: "BJ's Wholesale Club",
+    description: 'BJ\'s Wholesale Club saw comparable sales surge 34% in Q2 FY2025, with total net sales reaching $20.6 billion for fiscal 2024 and membership fee income rising 7.9%. Through in-store marketing excellence, Rymaxus-partnered D2C brands connect with over 8 million active members at the point of purchase with personalized, face-to-face engagement.',
+    results: ['34% surge in comparable sales (Q2 FY2025)', '$20.6B total net sales for fiscal 2024', '7.9% increase in membership fee income', '8M+ active members reached at point of purchase']
   }, {
-    title: 'Summer Product Launch',
-    client: 'Oceanic Beverages',
-    description: 'Designed a beach activation tour across Florida featuring interactive projection mapping and influencer partnerships.',
-    image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    results: ['250% ROI', '85,000+ product samples distributed', '28% conversion to purchase']
+    title: 'Curated Scale Meets In-Store Excellence.',
+    client: 'Costco',
+    description: 'Costco closed fiscal 2024 with $250 billion in total net sales, a 5% year-over-year increase, driven by exceptional member engagement. Rymaxus collaborations integrate exclusive, high-velocity items into Costco\'s curated catalog, driving faster sell-through rates through strategic in-store marketing and personalized member engagement.',
+    results: ['$250B total net sales for fiscal 2024', '5% year-over-year increase', 'Faster sell-through rates', 'Enhanced member engagement']
   }, {
-    title: 'Digital Art Experience',
-    client: 'Modern Museum of Art',
-    description: 'Developed an interactive digital installation that transformed visitor movements into stunning visual art displays.',
-    image: 'https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    results: ['Record attendance of 45,000+ visitors', 'Average engagement time of 24 minutes', 'Featured in national press']
+    title: 'Direct-to-Consumer Marketing in Wholesale.',
+    client: "Sam's Club",
+    description: 'We specialize in direct-to-consumer marketing within the wholesale scene, serving as the in-store marketing team for large brands within Sam\'s Club retail spaces. We finish the customer journey with face-to-face assurance, connecting brands with members at the point of decision through personalized, in-store engagement and expert product demonstrations.',
+    results: ['Face-to-face customer engagement', 'Point-of-decision connections', 'Personalized in-store experiences', 'Expert product demonstrations']
   }];
   const nextSlide = () => {
     setActiveIndex(prev => prev === caseStudies.length - 1 ? 0 : prev + 1);
@@ -36,19 +33,17 @@ export function CaseStudies() {
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-8"></div>
-          <p className="text-xl text-gray-300">
-            Explore our most impactful retail marketing campaigns and
-            their results.
+          <p className="text-xl text-gray-300 mb-4">
+            Retail Success
+          </p>
+          <p className="text-lg text-gray-400 mb-4">
+            Global brands see measurable success when they collaborate with us. From higher conversion and payment approval rates to faster processing speeds. Discover their stories here.
           </p>
         </div>
         <div className="relative overflow-hidden rounded-2xl">
           {caseStudies.map((study, index) => <div key={index} className={`transition-opacity duration-500 ${index === activeIndex ? 'opacity-100' : 'opacity-0 absolute inset-0'}`}>
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div className="relative h-[300px] md:h-[500px] overflow-hidden rounded-xl">
-                  <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10 opacity-70"></div>
-                  <img src={study.image} alt={study.title} className="w-full h-full object-cover transition-transform duration-10000 hover:scale-110" />
-                </div>
-                <div className="bg-gradient-to-br from-gray-900 to-gray-800 p-8 rounded-xl border border-gray-800">
+              <div className="grid md:grid-cols-1 gap-8 items-center">
+                <div className="bg-gradient-to-br from-gray-900 to-gray-800 p-8 rounded-xl border border-gray-800 w-full">
                   <span className="text-sm text-purple-400 font-semibold">
                     {study.client}
                   </span>
