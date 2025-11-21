@@ -26,7 +26,7 @@ export function Contact() {
                 <div>
                   <h4 className="font-semibold text-lg">Location</h4>
                   <p className="text-gray-400">
-                    Fort Myers, Florida
+                    Sarasota, Florida
                   </p>
                 </div>
               </div>

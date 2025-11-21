@@ -112,7 +112,7 @@ export function PrivacyPolicy() {
             <p className="text-gray-300">
               Email: hr@rymaxus.com<br />
               Phone: 941-477-8166<br />
-              Address: Fort Myers, Florida
+              Address: Sarasota, Florida
             </p>
           </section>
         </div>
