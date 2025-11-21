@@ -49,15 +49,6 @@ export function Contact() {
                 </div>
               </div>
             </div>
-            <div className="mt-12">
-              <h3 className="text-xl font-bold mb-4">Follow Us</h3>
-              <div className="flex space-x-4">
-                {['instagram', 'twitter', 'linkedin', 'facebook'].map(social => <a key={social} href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all">
-                      <span className="sr-only">{social}</span>
-                      <div className="w-5 h-5 bg-white mask-social-${social}"></div>
-                    </a>)}
-              </div>
-            </div>
           </div>
           <div className="bg-gradient-to-br from-gray-900 to-gray-800 p-8 rounded-xl border border-gray-800">
             <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>

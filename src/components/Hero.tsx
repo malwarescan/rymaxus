@@ -41,9 +41,6 @@ export function Hero() {
           Creating unforgettable brand moments through innovative retail
           marketing.
         </p>
-        <button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full text-white font-bold text-lg transition-all hover:shadow-glow hover:scale-105">
-          Discover Our Work
-        </button>
       </div>
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
